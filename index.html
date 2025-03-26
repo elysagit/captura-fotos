@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturar Foto e Aplicar Filtro</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <video id="camera" autoplay></video>
+    <canvas id="foto" style="display: none;"></canvas>
+
+    <div class="button-container">
+        <button id="ligarCamera">Ligar Câmera</button>
+        <button id="desligarCamera">Desligar Câmera</button>
+        <button id="capturar">Capturar Foto</button>
+        <button id="filtro">Aplicar Preto e Branco</button>
+    </div>
+
+    <h2>Galeria de Fotos</h2>
+    <div class="galeria" id="galeria"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
